@@ -1,0 +1,33 @@
+{
+    "name": "drewlabs/php-dompdf",
+    "description": "wrapper around php dompdf/dompdf library",
+    "keywords": [
+        "pdf",
+        "dom"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Azandrew",
+            "email": "azandrewdevelopper@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "dompdf/dompdf": "^3.0",
+        "nyholm/psr7": "^1.5"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Drewlabs\\Dompdf\\": "src/"
+        },
+        "files": [
+            "src/proxies.php"
+        ]
+    },
+    "suggest": {
+        "symfony/http-foundation": "^7.0|^8.0 for serving pdf as http response through Drewlabs\\Dompdf\\Response adapter class"
+    }
+}

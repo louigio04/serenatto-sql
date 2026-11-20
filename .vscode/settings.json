@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "database": "serenatto",
+            "username": "root",
+            "name": "Local instance MySQL80"
+        }
+    ],
+    "cSpell.words": [
+        "almoco",
+        "Almoco",
+        "botao",
+        "conexao",
+        "Diretorio",
+        "icone",
+        "serenatto",
+        "Serenatto"
+    ]
+}
